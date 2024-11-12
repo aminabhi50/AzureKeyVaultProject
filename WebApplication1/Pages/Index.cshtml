@@ -7,5 +7,19 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Azure Key Vault For Secrets Management Project</p>
-    <p>The Secret is: @Model.SecretValue</p>
+    <p> Key Details: <br />
+        Key Name : @Model.KeyName <br />
+        Key Type: @Model.KeyType <br />
+    </p>
+    
+    <p> Secret Details: <br />
+        The Secret is: @Model.SecretValue <br />
+    </p>
+
+    <p> Certificate Details: <br />
+        Certificate Name: @Model.CertificateName <br />
+        Certificate Issuer: @Model.CertificateIssuer <br />
+        Certificate Subject: @Model.CertificateSubject <br />
+        Certificate Value: @Model.CertificateValue <br />
+    </p>
 </div>
